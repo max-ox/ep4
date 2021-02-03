@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Echoes of Paradiso 4 - Infinity the Game Online Campaign</title>
+	<link rel="icon" type="image/svg+xml" href="img/favicon.svg" sizes="any">
+	<style>
+        html, body {
+            margin: 0;
+            padding: 0;
+
+        }
+        html {
+            background-color: #010C12;
+            background-size: 201px 190px;
+            background-image: linear-gradient(to right, #07151C 1px, transparent 1px), linear-gradient(to bottom, #07151C 1px, transparent 1px);
+        }
+        body {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+	        align-items: center;
+	        justify-content: center;
+        }
+        body:after {
+	        content: '';
+	        position: absolute;
+            width: 100vw;
+            height: 100vh;
+            top: 50%;
+            left: 50%;
+	        transform: translate(-50%, -60%);
+            background: url("img/space.png") no-repeat center center;
+	        background-size: contain;
+	        pointer-events: none;
+            z-index: 0;
+        }
+        .logo {
+	        z-index: 1;
+            position: relative;
+            pointer-events: none;
+            margin-top: 30vh;
+        }
+
+        .logo img {
+	        max-width: 100%;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="logo"><img src="img/logo.png" alt=""></div>
+</div>
+</body>
+</html>
